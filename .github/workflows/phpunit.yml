@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - trunk
+      - ci_type__not_in
     paths:
       - '**/*.php'
       - 'composer.json'
